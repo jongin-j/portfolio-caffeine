@@ -8,7 +8,7 @@
 
 ---
 
-## ✅ What I Built (요약)
+## What I Built (요약)
 - **OAuth2 소셜 로그인(Kakao/Google)**: Authorization Code Flow + **JWT 세션** 구조로 인증 플로우 구현
 - **User App(React Native/Expo)**: 로그인/대시보드/거래내역/쿠폰 등 **핵심 화면 및 사용자 흐름** 구현
 - **FastAPI 백엔드**: 인증/거래/예산/쿠폰 **REST API 설계 및 구현**, 프론트 연동
@@ -55,14 +55,8 @@
 ---
 
 ## 🏗️ 아키텍처
-| Layer | Technology |
-|-------|------------|
-| **Frontend** | React Native (Expo) |
-| **Backend** | FastAPI (Python) |
-| **Database** | PostgreSQL (AWS RDS) |
-| **Auth** | JWT + OAuth2 (Kakao, Google) |
-| **AI/ML** | XGBoost, Gemini API |
-| **Deploy** | Docker, AWS ECS |
+<img width="3840" height="2160" alt="architecture" src="https://github.com/user-attachments/assets/5a808003-264b-4206-b65d-d551538fda8b" />
+
 
 ### 데이터 흐름
 `User App` → `FastAPI` → `PostgreSQL` → `XGBoost / Gemini API`
