@@ -1,6 +1,8 @@
-# portfolio-caffeine (AI 기반 소비 관리 서비스)
+# Caffeine — 개인 기여 요약 (Portfolio)
 
 > 소비 패턴을 예측하고, 맞춤형 쿠폰과 인사이트를 제공하는 개인 소비 관리 앱
+> 이 문서는 팀 프로젝트 Caffeine의 개인 기여/구현 요약입니다.
+> 전체 구현/배포/최신 문서는 팀 GitHub에서 확인 가능합니다. (팀 레포 링크: https://github.com/HosikYOON/caffeine)
 
 **프로젝트 기간**: 2025.11.17 ~ 2025.12.31 (약 6주)  
 **팀 규모**: 5명  
