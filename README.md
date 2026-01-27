@@ -13,11 +13,11 @@
 ---
 
 ## What I Built (요약)
-- **OAuth2 소셜 로그인(Kakao/Google)**: Authorization Code Flow + **JWT 세션** 구조로 인증 플로우 구현
-- **User App(React Native/Expo)**: 로그인/대시보드/거래내역/쿠폰 등 **핵심 화면 및 사용자 흐름** 구현
-- **FastAPI 백엔드**: 인증/거래/예산/쿠폰 **REST API 설계 및 구현**, 프론트 연동
-- **AI 예측 결과 연동**: XGBoost 예측 결과 API 연결, **예측 카테고리 기반 쿠폰 자동 발급 플로우** 구성
-- **CSV 거래내역 동기화**: 업로드 + **인코딩(UTF-8/EUC-KR) 자동 감지**로 은행별 파일 호환성 확보
+- **OAuth2 소셜 로그인(Kakao/Google)**: Authorization Code Flow + JWT 세션 구조로 인증 플로우 구현
+- **User App(React Native/Expo)**: 로그인/대시보드/거래내역/쿠폰 등 핵심 화면 및 사용자 흐름 구현
+- **FastAPI 백엔드**: 인증/거래/예산/쿠폰 REST API 설계 및 구현, 프론트 연동
+- **AI 예측 결과 연동**: XGBoost 예측 결과 API 연결, 예측 카테고리 기반 쿠폰 자동 발급 플로우 구성
+- **CSV 거래내역 업로드**: 업로드 + 인코딩(UTF-8/EUC-KR) 자동 감지로 은행별 파일 호환성 확보
 - **데이터 전처리**: 2,438만 건 원본 데이터 기간 필터링/카테고리 매핑 로직 설계
 - **LLM 인사이트(Gemini)**: 프롬프트 설계 및 맞춤형 소비 인사이트 제공(기능 PoC)
 
